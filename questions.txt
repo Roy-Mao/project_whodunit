@@ -1,0 +1,43 @@
+1.  TODO
+Diffefrent machines interpret int and other premitive data types diffrently. 
+Some interpret it as 8 bits while others interpret  int as 32-bits. Including 
+<stdint.h> will assure you get what you type.
+
+2.  TODO
+Integer type can have different bits depending on the compiler. It gives no guarantee that an 
+integer is, say 8 or 16 bits. By specifying uint8_t and associate this with BYTE, we can make
+sure that one Byte means an unsigned 8 bits variable.
+
+3.  TODO
+BYTE  -  1 byte; 
+DWORD - 4 bytes;
+LONG  - 4 bytes;
+WORD  - 2 bytes;
+
+4.  TODO
+"BM" must be the first two bytes of a BMP file.
+
+5.  TODO
+bfSize is the file size while biSize is the header size.
+
+6.  TODO
+If biHeight is negative, then the image should be top-down.
+
+7.  TODO
+biBitCount;
+
+8.  TODO
+File may not exist; Programmer might have no access permission to the file etc;
+
+9.  TODO
+We always read 1 element of struct. That is why it should be 1.
+
+10. TODO
+if bi.biWidth is 3, then the padding will be the integer 3;
+
+11. TODO
+It moves to a specified file location;
+
+12. TODO
+SEEK_CUR (the whence argument) is an integer constant which is used to specify the offset provided 
+in relation to the current file position;
